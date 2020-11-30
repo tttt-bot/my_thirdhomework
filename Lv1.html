@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let str = "can-enter-volunter-organization";
+        function change(str){
+            str = str.replace(/\b\w+\b/g,function(word){
+                return word.substring(0,1).toUpperCase() + word.substring(1);
+            })
+            let ad = str.replace(/-/g,"")
+document.write(ad);
+        }
+             change(str);
+
+
+             let arr = ["myfirstactivity","today activity","yourActivity","activitys"]
+               arr.push("activity");
+               let newArr = arr ;
+              console.log(newArr);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
